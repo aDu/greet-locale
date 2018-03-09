@@ -6,6 +6,7 @@ describe('Greet', function() {
     it('should work for supported languages', () => {
         assert.equal("Hallo", greetLocale("de"))
         assert.equal("Hi", greetLocale("en"))
-        assert.equal("Buna", greetLocale("ro"))
+        assert.equal("Bună", greetLocale("ro"))
+        assert.equal("नमस्ते", greetLocale("hi"))
     })
 })
