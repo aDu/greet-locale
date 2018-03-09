@@ -1,5 +1,7 @@
 # greet-locale
 
+Greets a user in a particular language.
+
 Install via npm: `npm i -S greet-locale`.
 
 Quickly hacked this package out, doesn't support many languages yet.
