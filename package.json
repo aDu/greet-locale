@@ -1,6 +1,6 @@
 {
   "name": "greet-locale",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Get greetings in a particular language.",
   "main": "index.js",
   "scripts": {
