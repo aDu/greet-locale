@@ -2,7 +2,7 @@
 
 Greets a user in a particular language.
 
-Given the locale, it returns the greeting (as a string) most relevant to that locale.
+Given the locale, returns the greeting (as a string) most relevant to that locale.
 
 Install via npm: `npm i -S greet-locale`.
 
@@ -15,8 +15,10 @@ Give the locale as the parameter as depicted below.
 
 ```
 var greetLocale = require('greet-locale')
-console.log(greetLocale('ro')) // "Buna"
+console.log(greetLocale('ro')) // "Bună"
 console.log(greetLocale('de')) // "Hallo"
+console.log(greetLocale('ru')) // "Здравствуй"
+console.log(greetLocale('en')) // "Hi"
 ```
 
 # Contribution
